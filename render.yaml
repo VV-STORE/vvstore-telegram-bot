@@ -1,4 +1,3 @@
-
 services:
   - type: web
     name: vvstore-bot
@@ -7,8 +6,11 @@ services:
     startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
+        value: ""
         sync: true
       - key: SHEET_URL
+        value: ""
         sync: true
       - key: GOOGLE_KEY
+        value: ""
         sync: true
